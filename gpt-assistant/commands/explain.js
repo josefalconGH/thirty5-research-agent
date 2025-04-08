@@ -9,14 +9,14 @@ export async function explainFile(filePath) {
     const absolutePath = path.resolve(process.cwd(), filePath);
     const content = await fs.readFile(absolutePath, 'utf-8');
 
-    console.log(chalk.blue(`[EXPLAINING] ${filePath}...\n`));
+    console.log(chalk.blue(`\n🧠 [EXPLAINING] ${filePath}...`));
 
     const response = await askGPT(
-      `Explain the following file in detail:\n\n${content}`
+      `\nExplain the following file in detail:\n\n${content}`
     );
 
     console.log(chalk.green(response));
   } catch (error) {
-    console.error(chalk.red(`❌ Error: ${error.message}`));
+    console.error(chalk.red(`❌ [ERROR]: ${error.message}`));
   }
 }

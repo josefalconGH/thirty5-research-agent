@@ -54,7 +54,7 @@ async function generateComponent(fullPath, options) {
   const filePath = path.join(basePath, 'index.jsx');
 
   try {
-    console.log(chalk.yellowBright(`\n🧠 [PROMPT] Generating '${componentName}' with your prompt...`));
+    console.log(chalk.blue(`\n🧠 [PROMPT] Generating '${componentName}' with your prompt...`));
     const componentCode = await askGPT(options.prompt);
 
     console.log(chalk.yellow(`\n🚧 [PREVIEW]:`));
