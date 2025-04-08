@@ -1,0 +1,22 @@
+{
+  "name": "gpt-assistant",
+  "version": "1.1.0",
+  "description": "GPT-powered local CLI assistant",
+  "main": "cli.js",
+  "type": "module",
+  "bin": {
+    "gptdev": "./cli.js"
+  },
+  "scripts": {
+    "start": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["cli", "openai", "gpt", "ai", "devtools"],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^11.0.0",
+    "diff": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "openai": "^4.0.0"
+  }
+}

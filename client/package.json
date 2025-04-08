@@ -1,0 +1,40 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "description": "thirty5's **Research Agent**, a full stack knowledge base powered by AI. Built using MERN and GPT-4.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": ["thirty5", "research", "agent", "knowledge", "base", "AI"],
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "@vitejs/plugin-react-swc": "^3.7.0",
+    "autoprefixer": "^10.4.20",
+    "concurrently": "^8.2.2",
+    "eslint": "^9.8.0",
+    "eslint-plugin-react": "^7.35.0",
+    "eslint-plugin-react-refresh": "^0.4.9",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.9",
+    "vite": "^5.4.0"
+  },
+  "author": "Jose Falcon",
+  "license": "MIT",
+  "dependencies": {
+    "@apollo/client": "^3.11.4",
+    "graphql": "^16.9.0",
+    "i": "^0.3.7",
+    "jwt-decode": "^3.0.0",
+    "npm": "^10.8.2",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-lottie-player": "^2.1.0",
+    "react-router-dom": "^6.26.0"
+  }
+}
